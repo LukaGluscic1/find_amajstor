@@ -20,6 +20,7 @@ import { ref } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Footer from './components/Footer.vue'
+import Main from './components/main.vue'
 
 
 const count = ref(0)
