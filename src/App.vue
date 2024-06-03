@@ -1,12 +1,6 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
     </div>
@@ -14,8 +8,22 @@ import TheWelcome from './components/TheWelcome.vue'
 
   <main>
     <TheWelcome />
+    <br>
+    {{ data }}
   </main>
+
+  <Footer></Footer>
 </template>
+
+<script setup>
+import { ref } from 'vue'
+import HelloWorld from './components/HelloWorld.vue'
+import TheWelcome from './components/TheWelcome.vue'
+import Footer from './components/Footer.vue'
+
+
+const count = ref(0)
+</script>
 
 <style scoped>
 header {
