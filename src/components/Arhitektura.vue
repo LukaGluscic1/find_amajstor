@@ -1,27 +1,27 @@
 <template>
- <div class="tittle">
- <h2 class="title-first">Arhitektura</h2>
- <p class="tittle-desc">
-  Arhitekti pružaju usluge dizajna i planiranja za unapređenje, modernizaciju, uređenje i preuređenje vašeg prostora. Pronađite iskusne stručnjake za vaš sljedeći arhitektonski projekt danas!
- </p>
- </div>
- <div class="posao">
-  <h3 class="subheading">Trebaš majstora?</h3>
-  <button class="button">Naruči uslugu</button>
-  <p class="paragraph">
-    Projektiranje arhitektonskih prostora predstavlja proces preuređenja, poboljšanja ili modernizacije određenog dijela ili cijelog stambenog ili poslovnog objekta. Bilo da je riječ o arhitektonskom dizajnu kuhinje, kupaonice, potkrovlja, tavana ili vanjskog prostora, ovaj postupak obuhvata niz aktivnosti kojima se unapređuje funkcionalnost i estetika prostora.
+  <div class="title">
+    <h2 class="title-first">Arhitektura</h2>
+    <p class="title-desc">
+      Arhitekti pružaju usluge dizajna i planiranja za unapređenje, modernizaciju, uređenje i preuređenje vašeg prostora. Pronađite iskusne stručnjake za vaš sljedeći arhitektonski projekt danas!
+    </p>
+  </div>
+  <div class="posao">
+    <h3 class="subheading">Trebaš majstora?</h3>
+    <button class="button">Naruči uslugu</button>
+    <p class="paragraph">
+      Projektiranje arhitektonskih prostora predstavlja proces preuređenja, poboljšanja ili modernizacije određenog dijela ili cijelog stambenog ili poslovnog objekta. Bilo da je riječ o arhitektonskom dizajnu kuhinje, kupaonice, potkrovlja, tavana ili vanjskog prostora, ovaj postupak obuhvata niz aktivnosti kojima se unapređuje funkcionalnost i estetika prostora.
+    </p>
+    <img class="adapt" src="../../img/slika.jpg">
+  </div>
+</template>
 
-  </p>
-  <img class="adapt" src ="img\586199_orig.jpg">
- </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'Arhitektura'
-  };
-  </script>
-  
+<script>
+export default {
+  name: 'Arhitektura'
+};
+</script>
+
+
   <style scoped>
 .title {
   display: flex;
