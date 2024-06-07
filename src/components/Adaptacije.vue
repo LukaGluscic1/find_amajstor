@@ -15,7 +15,7 @@
       tavana ili vanjskog prostora, ovaj postupak podrazumijeva niz radova kojima se osvježava i podiže funkcionalnost i
       estetika prostora.
     </p>
-    <img class="adapt" src="C:\Users\Home\Desktop\Projekt\find_amajstor\img\adaptacija.jpg">
+    <img class="adapt" src="../../img/adaptacija.jpg">
   </div>
 </template>
 
