@@ -156,6 +156,7 @@ export default {
   flex-direction: column;
   align-items: center;
   width: 800px;
+  flex-grow: 1;
 }
 
 .query-box input,
@@ -176,5 +177,23 @@ export default {
 .query-box .button {
   width: 100%;
   max-width: 200px;
+}
+
+@media (max-width: 1200px) {
+  .query-box{
+    width: fit-content;
+  }
+}
+
+@media (max-width: 992px) {
+  .query-box{
+    width: fit-content;
+  }
+}
+
+@media (max-width: 768px) {
+  .query-box{
+    width: fit-content;
+  }
 }
 </style>
