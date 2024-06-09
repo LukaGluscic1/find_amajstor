@@ -15,7 +15,25 @@
       tavana ili vanjskog prostora, ovaj postupak podrazumijeva niz radova kojima se osvježava i podiže funkcionalnost i
       estetika prostora.
     </p>
-    <img class="adapt" src="C:\Users\Home\Desktop\Projekt\find_amajstor\img\adaptacija.jpg">
+    <img class="adapt" src="../../img/adaptacija.jpg">
+    <p class="paragraph">
+      <b>Adaptacija stana i kuće:</b> Kompletno uređenje i preuređenje stambenih prostora kako bi se povećala njihova
+      funkcionalnost i estetska vrijednost.<br><br>
+
+      <b>Adaptacija kupaonice i kuhinje:</b> Specifične adaptacije koje se fokusiraju na poboljšanje funkcionalnosti i izgleda
+      ovih ključnih prostora u domu.<br><br>
+
+      <b>Adaptacija poslovnih prostora:</b> Uređenje kancelarija, kafića, restorana i drugih poslovnih prostora kako bi postali
+      atraktivniji i funkcionalniji.<br><br>
+
+      <b>Modernizacija interijera:</b> Implementacija suvremenih rješenja i dizajna u prostor kako bi se stvorio moderniji
+      izgled.<br><br>
+
+      <b>Renovacija vanjskog prostora:</b> Poboljšanje izgleda vanjskih površina, uključujući balkone, terase, vrtove i fasade.<br><br>
+
+      <b>Obnova i preuređenje:</b> Radovi koji obuhvaćaju popravke, promjene zidova, zamjenu starih materijala i poboljšanje
+      općeg stanja prostora.
+    </p>
   </div>
 </template>
 
@@ -27,12 +45,12 @@ export default {
 </script>
 
 <style scoped>
+
 .title {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  margin-bottom: 50px;
 }
 
 .title-first{

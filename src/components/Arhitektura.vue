@@ -28,10 +28,9 @@ export default {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  margin-bottom: 50px;
 }
 
-.title-first{
+.title-first {
   font-size: 90px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -74,54 +73,58 @@ export default {
   flex-grow: 1;
 }
 
-.adapt{
+.adapt {
   width: 40%;
   height: auto;
 }
 
 @media (max-width: 1200px) {
-  .title-desc{
+  .title-desc {
     margin-right: 200px;
     margin-left: 200px;
   }
-  .paragraph{
+
+  .paragraph {
     margin-right: 200px;
     margin-left: 200px
   }
 }
 
 @media (max-width: 992px) {
-  .title-desc{
+  .title-desc {
     margin-right: 100px;
     margin-left: 100px;
   }
-  .paragraph{
+
+  .paragraph {
     margin-right: 100px;
     margin-left: 100px
   }
-  .adapt{
+
+  .adapt {
     width: 60%;
     height: auto;
   }
 }
 
 @media (max-width: 768px) {
-  .title-first{
+  .title-first {
     font-size: 70px;
   }
-  .title-desc{
+
+  .title-desc {
     margin-right: 50px;
     margin-left: 50px;
   }
-  .paragraph{
+
+  .paragraph {
     margin-right: 50px;
     margin-left: 50px
   }
-  .adapt{
+
+  .adapt {
     width: 80%;
     height: auto;
   }
 }
-
-
 </style>

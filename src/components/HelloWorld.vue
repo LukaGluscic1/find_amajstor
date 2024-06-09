@@ -71,6 +71,7 @@ export default {
   font-weight: bold;
   border: 3px solid #cbb3ff;
   border-radius: 30px;
+  background-color: #eae0ff;
   padding: 40px 40px;
   cursor: pointer;
   margin-right: 10px; /* Add margin-right to create gap between buttons */
@@ -117,6 +118,7 @@ export default {
   font-weight: bold;
   border: 3px solid #cbb3ff;
   border-radius: 30px;
+  background-color: #eae0ff;
   padding: 10px 20px;
   cursor: pointer;
 }
