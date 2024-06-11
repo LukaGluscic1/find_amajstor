@@ -7,17 +7,35 @@
   </div>
   <div class="posao">
     <h3 class="subheading">Trebaš majstora?</h3>
-    <button class="button">Naruči uslugu</button>
+    <a href="Kontakt.vue">
+  <button>Naruči uslugu</button>
+</a>
     <p class="paragraph">
       Projektiranje arhitektonskih prostora predstavlja proces preuređenja, poboljšanja ili modernizacije određenog dijela ili cijelog stambenog ili poslovnog objekta. Bilo da je riječ o arhitektonskom dizajnu kuhinje, kupaonice, potkrovlja, tavana ili vanjskog prostora, ovaj postupak obuhvata niz aktivnosti kojima se unapređuje funkcionalnost i estetika prostora.
     </p>
     <img class="adapt" src="../../img/slika.jpg">
   </div>
+  <p class="paragraph">
+    <b>Projektiranje stambenih i poslovnih objekata</b>: Izrada detaljnih planova i nacrta za izgradnju i preuređenje stambenih i poslovnih objekata, uzimajući u obzir funkcionalnost, estetiku i ekološke standarde.<br><br>
+
+<b>Urbanističko planiranje</b>: Razvijanje urbanističkih rješenja za organizaciju prostora unutar gradova i naselja, uključujući prometnu infrastrukturu, javne prostore i zelene površine.<br><br>
+
+<b>Interijer dizajn</b>: Kreiranje unutarnjih prostora koji su estetski privlačni, funkcionalni i prilagođeni potrebama korisnika, koristeći najnovije trendove i materijale.<br><br>
+
+<b>Restauracija i konzervacija</b>: Obnova i očuvanje povijesnih zgrada i spomenika, uz poštivanje izvorne arhitekture i kulturne baštine.<br><br>
+
+<b>Održiva arhitektura</b>: Implementacija ekološki prihvatljivih rješenja i održivih praksi u projektiranju i izgradnji, s ciljem smanjenja utjecaja na okoliš.<br><br>
+  </p>
 </template>
 
 <script>
 export default {
-  name: 'Arhitektura'
+  name: 'Arhitektura',
+  methods:{
+    goToPage(){
+      this.$router.push('src\components\Kontakt.vue');
+    }
+  }
 };
 </script>
 
@@ -50,7 +68,7 @@ export default {
   margin-bottom: 20px;
 }
 
-.button {
+.button a {
   font-size: 18px;
   font-weight: bold;
   border: none;

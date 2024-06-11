@@ -14,24 +14,24 @@
       Elektroinstalacije su neizostavan dio svakodnevnog života i ključne su za funkcioniranje svakog doma, ureda ili
       industrijskog objekta. Bez obzira da li vam je potrebna instalacija nove rasvjete, popravak postojećih električnih
       instalacija ili postavljanje složenih industrijskih sistema, evo kako specijalizirani električari mogu pomoći:<br><br>
-      Domaće i stambene instalacije: Usluge obuhvaćaju sve od osnovnih električnih radova kao što su montaža i popravak
+      <b>Domaće i stambene instalacije:</b> Usluge obuhvaćaju sve od osnovnih električnih radova kao što su montaža i popravak
       električnih instalacija, rasvjete i ožičenja, do složenijih kao što su pametne kuće i solarni paneli.<br><br>
 
-      Poslovne i komercijalne instalacije: Sveobuhvatne elektroinstalacije za poslovne prostore, uključujući ugradnju
+      <b>Poslovne i komercijalne instalacije:</b> Sveobuhvatne elektroinstalacije za poslovne prostore, uključujući ugradnju
       rasvjete, ožičenje, sigurnosne sustave i sustave za punjenje električnih vozila.<br><br>
 
-      Industrijske instalacije: Specijalizirane usluge za industrijska postrojenja, uključujući energetski razvod,
+      <b>Industrijske instalacije:</b> Specijalizirane usluge za industrijska postrojenja, uključujući energetski razvod,
       besprekidno napajanje i složene električne panele.
     </p>
     <img class="adapt" src="../../img/industrijske-elektroinstalacije-el-kast-3.jpeg">
-    <p class="paragraph">
-      Specijalizirane i napredne usluge: Ugradnja i održavanje solarnih sustava, pametnih prekidača, video nadzora, i
+    <p class="paragraph"> 
+      <b>Specijalizirane i napredne usluge:</b> Ugradnja i održavanje solarnih sustava, pametnih prekidača, video nadzora, i
       sustava daljinskog upravljanja.<br><br>
 
-      Održavanje i popravci: Uz ugradnju novih sistema, električari pružaju usluge popravka i održavanja kako bi se
+      <b>Održavanje i popravci:</b> Uz ugradnju novih sistema, električari pružaju usluge popravka i održavanja kako bi se
       osiguralo ispravno funkcioniranje i sigurnost svih električnih instalacija.<br><br>
 
-      Sigurnost i energetska učinkovitost: Od ugradnje energetski učinkovite rasvjete do postavljanja dimnih detektora i
+      <b>Sigurnost i energetska učinkovitost:</b> Od ugradnje energetski učinkovite rasvjete do postavljanja dimnih detektora i
       sustava zaštite, sigurnost i energetska efikasnost su na prvom mjestu.
     </p>
   </div>
