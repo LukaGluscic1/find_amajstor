@@ -7,9 +7,7 @@
   </div>
   <div class="posao">
     <h3 class="subheading">Trebaš majstora?</h3>
-    <a href="Kontakt.vue">
-  <button>Naruči uslugu</button>
-</a>
+    <button class="button" @click="goToPage">Naruči uslugu</button>
     <p class="paragraph">
       Projektiranje arhitektonskih prostora predstavlja proces preuređenja, poboljšanja ili modernizacije određenog dijela ili cijelog stambenog ili poslovnog objekta. Bilo da je riječ o arhitektonskom dizajnu kuhinje, kupaonice, potkrovlja, tavana ili vanjskog prostora, ovaj postupak obuhvata niz aktivnosti kojima se unapređuje funkcionalnost i estetika prostora.
     </p>
@@ -68,7 +66,7 @@ export default {
   margin-bottom: 20px;
 }
 
-.button a {
+.button {
   font-size: 18px;
   font-weight: bold;
   border: none;
