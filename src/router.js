@@ -59,7 +59,7 @@ const router = createRouter({
       component: MajstorSam
     },
     {
-      path: '/seemore',
+      path: '/poslovi',
       name: 'Seemore',
       component: Seemore
     }

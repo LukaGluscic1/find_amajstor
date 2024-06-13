@@ -6,7 +6,6 @@
   </div>
 
   <div class="poslovi">
-    
     <div class="button-group">
       <button class="button" @click="$router.push('/adaptacije')">Adaptacije</button>
       <button class="button" @click="$router.push('/arhitektura')">Arhitektura</button>
@@ -14,15 +13,36 @@
       <button class="button" @click="$router.push('/bojleri')">Bojleri</button>
       <button class="button" @click="$router.push('/ciscenje')">Čišćenje</button>
       <button class="button" @click="$router.push('/elektroinstalacije')">Elektroinstalacije</button>
-      </div>
+    </div>
   </div>
-  <button class="seemore" @click="$router.push('/poslovi')">Vidi više</button>
+  <div v-if="Kliknuto === true" class="poslovi">
+    <div class="button-group">
+      <button class="button" @click="$router.push('/adaptacije')">Adaptacije</button>
+      <button class="button" @click="$router.push('/arhitektura')">Arhitektura</button>
+      <button class="button" @click="$router.push('/bazeni')">Bazeni</button>
+      <button class="button" @click="$router.push('/bojleri')">Bojleri</button>
+      <button class="button" @click="$router.push('/ciscenje')">Čišćenje</button>
+      <button class="button" @click="$router.push('/elektroinstalacije')">Elektroinstalacije</button>
+    </div>
+  </div>
+  <button v-if="Kliknuto === false" class="seemore" @click="handleClick()">Vidi više</button>
+  <button v-if="Kliknuto === true" class="seemore" @click="handleClick()">Vidi manje</button>
   <router-view />
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld'
+  data() {
+    return {
+      Kliknuto: false,
+    }
+  },
+  name: 'HelloWorld',
+  methods: {
+    handleClick(){
+      this.Kliknuto = !this.Kliknuto;
+    }
+  }
 };
 
 
