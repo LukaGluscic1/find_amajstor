@@ -37,16 +37,16 @@
       Bojleri na drva ili pelete koriste obnovljive izvore energije, što ih čini pogodnima za objekte bez pristupa
       plinskoj ili električnoj mreži.<br><br>
 
-      Usluge vezane uz bojlere obuhvaćaju:<br><br>
+      <b>Usluge vezane uz bojlere obuhvaćaju:</b><br><br>
 
-      Instalacija bojlera: Postupak postavljanja novog bojlera u prostoru.<br><br>
+      <b>Instalacija bojlera:</b> Postupak postavljanja novog bojlera u prostoru.<br><br>
 
-      Servisiranje bojlera: Redovno održavanje i popravci kako bi se osigurao ispravan rad bojlera. To može uključivati
+      <b>Servisiranje bojlera:</b> Redovno održavanje i popravci kako bi se osigurao ispravan rad bojlera. To može uključivati
       kemijsko čišćenje bojlera ili redovni servis.<br><br>
 
-      Zamjena bojlera: Postupak uklanjanja starog bojlera i postavljanja novog.<br><br>
+      <b>Zamjena bojlera:</b> Postupak uklanjanja starog bojlera i postavljanja novog.<br><br>
 
-      Montaža bojlera: Ugradnja bojlera na određeno mjesto, bilo da je riječ o solarnom, plinskom ili električnom
+      <b>Montaža bojlera:</b> Ugradnja bojlera na određeno mjesto, bilo da je riječ o solarnom, plinskom ili električnom
       bojleru.Bez obzira na vrstu bojlera, važno je osigurati pravilnu instalaciju i redovito održavanje kako bi se
       osigurao optimalan rad i dugovječnost uređaja.
     </p>

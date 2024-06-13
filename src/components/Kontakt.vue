@@ -27,12 +27,12 @@ export default {
   },
   methods: {
     sendMessage() {
-      // Ovdje možete dodati logiku za slanje poruke
+      
       console.log('Ime i prezime:', this.name);
       console.log('Email:', this.email);
       console.log('Poruka:', this.message);
       
-      // Resetirajte polja nakon slanja poruke
+      
       this.name = '';
       this.email = '';
       this.message = '';

@@ -17,12 +17,12 @@
   </div>
   <div v-if="Kliknuto === true" class="poslovi">
     <div class="button-group">
-      <button class="button" @click="$router.push('/adaptacije')">Adaptacije</button>
-      <button class="button" @click="$router.push('/arhitektura')">Arhitektura</button>
-      <button class="button" @click="$router.push('/bazeni')">Bazeni</button>
-      <button class="button" @click="$router.push('/bojleri')">Bojleri</button>
-      <button class="button" @click="$router.push('/ciscenje')">Čišćenje</button>
-      <button class="button" @click="$router.push('/elektroinstalacije')">Elektroinstalacije</button>
+      <button class="button" @click="$router.push('/Vodoinstalacije')">Vodoinstalacije</button>
+      <button class="button" @click="$router.push('/podovi')">Podovi</button>
+      <button class="button" @click="$router.push('/Tende')">Tende</button>
+      <button class="button" @click="$router.push('/Zidarstvo')">Zidarstvo</button>
+      <button class="button" @click="$router.push('/Selidbe')">Selidbe</button>
+      <button class="button" @click="$router.push('/Keramika')">Keramika</button>
     </div>
   </div>
   <button v-if="Kliknuto === false" class="seemore" @click="handleClick()">Vidi više</button>

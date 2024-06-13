@@ -32,9 +32,9 @@
     border-top: 1px solid #e5e5e5;
     padding: 20px 0;
     width: 100%;
-    /*bottom: 0;
+    bottom: 0;
     left: 0%;
-    position: fixed;*/
+    position: fixed;
   }
   
   .footer-content {

@@ -10,8 +10,7 @@
   <div class="title">
     <h2 class="title-first">Arhitektura</h2>
     <p class="title-desc">
-      Arhitekti pružaju usluge dizajna i planiranja za unapređenje, modernizaciju, uređenje i preuređenje vašeg
-      prostora. Pronađite iskusne stručnjake za vaš sljedeći arhitektonski projekt danas!
+      Arhitekti pružaju usluge dizajna i planiranja za unapređenje, modernizaciju, uređenje i preuređenje vašeg prostora. Pronađite iskusne stručnjake za vaš sljedeći arhitektonski projekt danas!
     </p>
   </div>
   <div class="posao">
@@ -20,10 +19,7 @@
 
 
     <p class="paragraph">
-      Projektiranje arhitektonskih prostora predstavlja proces preuređenja, poboljšanja ili modernizacije određenog
-      dijela ili cijelog stambenog ili poslovnog objekta. Bilo da je riječ o arhitektonskom dizajnu kuhinje, kupaonice,
-      potkrovlja, tavana ili vanjskog prostora, ovaj postupak obuhvata niz aktivnosti kojima se unapređuje
-      funkcionalnost i estetika prostora.
+      Projektiranje arhitektonskih prostora predstavlja proces preuređenja, poboljšanja ili modernizacije određenog dijela ili cijelog stambenog ili poslovnog objekta. Bilo da je riječ o arhitektonskom dizajnu kuhinje, kupaonice, potkrovlja, tavana ili vanjskog prostora, ovaj postupak obuhvata niz aktivnosti kojima se unapređuje funkcionalnost i estetika prostora.
     </p>
     <img class="adapt" src="../../img/slika.jpg">
   </div>
@@ -31,20 +27,15 @@
 
 
   <p class="paragraph">
-    <b>Projektiranje stambenih i poslovnih objekata</b>: Izrada detaljnih planova i nacrta za izgradnju i preuređenje
-    stambenih i poslovnih objekata, uzimajući u obzir funkcionalnost, estetiku i ekološke standarde.<br><br>
+    <b>Projektiranje stambenih i poslovnih objekata</b>: Izrada detaljnih planova i nacrta za izgradnju i preuređenje stambenih i poslovnih objekata, uzimajući u obzir funkcionalnost, estetiku i ekološke standarde.<br><br>
 
-    <b>Urbanističko planiranje</b>: Razvijanje urbanističkih rješenja za organizaciju prostora unutar gradova i naselja,
-    uključujući prometnu infrastrukturu, javne prostore i zelene površine.<br><br>
+<b>Urbanističko planiranje</b>: Razvijanje urbanističkih rješenja za organizaciju prostora unutar gradova i naselja, uključujući prometnu infrastrukturu, javne prostore i zelene površine.<br><br>
 
-    <b>Interijer dizajn</b>: Kreiranje unutarnjih prostora koji su estetski privlačni, funkcionalni i prilagođeni
-    potrebama korisnika, koristeći najnovije trendove i materijale.<br><br>
+<b>Interijer dizajn</b>: Kreiranje unutarnjih prostora koji su estetski privlačni, funkcionalni i prilagođeni potrebama korisnika, koristeći najnovije trendove i materijale.<br><br>
 
-    <b>Restauracija i konzervacija</b>: Obnova i očuvanje povijesnih zgrada i spomenika, uz poštivanje izvorne
-    arhitekture i kulturne baštine.<br><br>
+<b>Restauracija i konzervacija</b>: Obnova i očuvanje povijesnih zgrada i spomenika, uz poštivanje izvorne arhitekture i kulturne baštine.<br><br>
 
-    <b>Održiva arhitektura</b>: Implementacija ekološki prihvatljivih rješenja i održivih praksi u projektiranju i
-    izgradnji, s ciljem smanjenja utjecaja na okoliš.<br><br>
+<b>Održiva arhitektura</b>: Implementacija ekološki prihvatljivih rješenja i održivih praksi u projektiranju i izgradnji, s ciljem smanjenja utjecaja na okoliš.<br><br>
   </p>
 </template>
 
