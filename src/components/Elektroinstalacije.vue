@@ -1,4 +1,12 @@
 <template>
+  <div class="POPUP-Prozor" v-if="Naruci === true">
+    <div class="POPUP-Message">
+      Skini aplikaciju:
+      <img src="../../img/google-play-badge.png" style="height: 43%; width: auto" alt="Google">
+      <img src="../../img/app-store-badge.png" style="height: 30%; width: auto" alt="Apple">
+    </div>
+  </div>
+
   <div class="title">
     <h2 class="title-first">Elektroinstalacije</h2>
     <p class="title-desc">
@@ -9,7 +17,7 @@
   </div>
   <div class="posao">
     <h3 class="subheading">Trebaš majstora?</h3>
-    <button class="button">Naruči uslugu</button>
+    <button class="button" @click="handleMajstor()">Naruči uslugu</button>
     <p class="paragraph">
       Elektroinstalacije su neizostavan dio svakodnevnog života i ključne su za funkcioniranje svakog doma, ureda ili
       industrijskog objekta. Bez obzira da li vam je potrebna instalacija nove rasvjete, popravak postojećih električnih
@@ -39,12 +47,49 @@
 
 <script>
 export default {
-  name: 'Elektroinstalacije'
+  name: 'Elektroinstalacije',
+  data() {
+    return {
+      Naruci: false,
+    }
+  },
+  methods: {
+    handleMajstor() {
+      this.Naruci = !this.Naruci
+    },
+  },
 };
 
 </script>
 
 <style scoped>
+.POPUP-Prozor {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.POPUP-Message {
+  background-color: #cbb3ff;
+  color: black;
+  border-radius: 2vw;
+  width: 20vw;
+  height: 10vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .title {
   display: flex;
   flex-direction: column;

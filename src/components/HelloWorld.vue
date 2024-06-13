@@ -26,8 +26,7 @@
     </div>
   </div>
   <button v-if="Kliknuto === false" class="seemore" @click="handleClick()">Vidi više</button>
-  <button v-if="Kliknuto === true" class="seemore" @click="handleClick()">Vidi manje</button>
-  <router-view />
+  <button v-if="Kliknuto === true" class="seemore" @click="handleClick()">Vidi manje</button> 
 </template>
 
 <script>
@@ -45,10 +44,11 @@ export default {
   }
 };
 
-
 </script>
 
 <style scoped>
+
+
 .hello-world {
   display: flex;
   flex-direction: column; /* ovo je zas mi je pre velik razmak dolje */

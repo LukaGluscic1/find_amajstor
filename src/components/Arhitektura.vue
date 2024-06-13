@@ -1,4 +1,12 @@
 <template>
+  <div class="POPUP-Prozor" v-if="Naruci === true">
+    <div class="POPUP-Message">
+      Skini aplikaciju:
+      <img src="../../img/google-play-badge.png" style="height: 43%; width: auto" alt="Google">
+      <img src="../../img/app-store-badge.png" style="height: 30%; width: auto" alt="Apple">
+    </div>
+  </div>
+
   <div class="title">
     <h2 class="title-first">Arhitektura</h2>
     <p class="title-desc">
@@ -9,8 +17,8 @@
   <div class="posao">
     <h3 class="subheading">Trebaš majstora?</h3>
     <button class="button" @click="handleMajstor()">Naruči uslugu</button>
-    
-    
+
+
     <p class="paragraph">
       Projektiranje arhitektonskih prostora predstavlja proces preuređenja, poboljšanja ili modernizacije određenog
       dijela ili cijelog stambenog ili poslovnog objekta. Bilo da je riječ o arhitektonskom dizajnu kuhinje, kupaonice,
@@ -19,15 +27,9 @@
     </p>
     <img class="adapt" src="../../img/slika.jpg">
   </div>
-  <div class="POPUP-Prozor" v-if="Naruci === true">
-      <div class="POPUP-Message">
-        Nazovi na: 091 999 999 999 ili
-        <div>
-          <img src="" alt="Google">
-          <img src="" alt="Apple">
-        </div>
-      </div>
-    </div>
+
+
+
   <p class="paragraph">
     <b>Projektiranje stambenih i poslovnih objekata</b>: Izrada detaljnih planova i nacrta za izgradnju i preuređenje
     stambenih i poslovnih objekata, uzimajući u obzir funkcionalnost, estetiku i ekološke standarde.<br><br>
@@ -48,14 +50,14 @@
 
 <script>
 export default {
+  name: 'Arhitektura',
   data() {
     return {
       Naruci: false,
     }
   },
-  name: 'Arhitektura',
   methods: {
-    handleMajstor(){
+    handleMajstor() {
       this.Naruci = !this.Naruci
     },
   },
@@ -64,16 +66,23 @@ export default {
 
 
 <style scoped>
-.POPUP-Prozor{
-  width: 100%;
-  height: 100%;
+.POPUP-Prozor {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  padding: 20px;
 }
-.POPUP-Message{
-  background-color: white;
+
+
+.POPUP-Message {
+  background-color: #cbb3ff;
   color: black;
   border-radius: 2vw;
   width: 20vw;
@@ -84,6 +93,7 @@ export default {
   align-items: center;
   justify-content: center;
 }
+
 .title {
   display: flex;
   flex-direction: column;

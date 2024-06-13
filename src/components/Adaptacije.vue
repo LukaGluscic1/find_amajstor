@@ -1,4 +1,12 @@
 <template>
+  <div class="POPUP-Prozor" v-if="Naruci === true">
+    <div class="POPUP-Message">
+      Skini aplikaciju:
+      <img src="../../img/google-play-badge.png" style="height: 43%; width: auto" alt="Google">
+      <img src="../../img/app-store-badge.png" style="height: 30%; width: auto" alt="Apple">
+    </div>
+  </div>
+
   <div class="title">
     <h2 class="title-first">Adaptacije</h2>
     <p class="title-desc">
@@ -8,7 +16,7 @@
   </div>
   <div class="posao">
     <h3 class="subheading">Trebaš majstora?</h3>
-    <button class="button" @click="showInstallPopup">Naruči uslugu</button>
+    <button class="button" @click="handleMajstor()">Naruči uslugu</button>
     <p class="paragraph">
       Adaptacija ili renovacija prostora predstavlja postupak preuređenja, poboljšanja ili modernizacije određenog
       dijela ili cijelog stambenog ili poslovnog objekta. Bilo da je riječ o adaptaciji kuhinje, kupaonice, potkrovlja,
@@ -20,18 +28,23 @@
       <b>Adaptacija stana i kuće:</b> Kompletno uređenje i preuređenje stambenih prostora kako bi se povećala njihova
       funkcionalnost i estetska vrijednost.<br><br>
 
-      <b>Adaptacija kupaonice i kuhinje:</b> Specifične adaptacije koje se fokusiraju na poboljšanje funkcionalnosti i izgleda
+      <b>Adaptacija kupaonice i kuhinje:</b> Specifične adaptacije koje se fokusiraju na poboljšanje funkcionalnosti i
+      izgleda
       ovih ključnih prostora u domu.<br><br>
 
-      <b>Adaptacija poslovnih prostora:</b> Uređenje kancelarija, kafića, restorana i drugih poslovnih prostora kako bi postali
+      <b>Adaptacija poslovnih prostora:</b> Uređenje kancelarija, kafića, restorana i drugih poslovnih prostora kako bi
+      postali
       atraktivniji i funkcionalniji.<br><br>
 
-      <b>Modernizacija interijera:</b> Implementacija suvremenih rješenja i dizajna u prostor kako bi se stvorio moderniji
+      <b>Modernizacija interijera:</b> Implementacija suvremenih rješenja i dizajna u prostor kako bi se stvorio
+      moderniji
       izgled.<br><br>
 
-      <b>Renovacija vanjskog prostora:</b> Poboljšanje izgleda vanjskih površina, uključujući balkone, terase, vrtove i fasade.<br><br>
+      <b>Renovacija vanjskog prostora:</b> Poboljšanje izgleda vanjskih površina, uključujući balkone, terase, vrtove i
+      fasade.<br><br>
 
-      <b>Obnova i preuređenje:</b> Radovi koji obuhvaćaju popravke, promjene zidova, zamjenu starih materijala i poboljšanje
+      <b>Obnova i preuređenje:</b> Radovi koji obuhvaćaju popravke, promjene zidova, zamjenu starih materijala i
+      poboljšanje
       općeg stanja prostora.
     </p>
   </div>
@@ -42,20 +55,46 @@ export default {
   name: 'Adaptacije',
   data() {
     return {
-      showInstallPopup: false
+      Naruci: false,
     }
   },
   methods: {
-    showInstallPopup() {
-      this.showInstallPopup = true
-    }
-  }
+    handleMajstor() {
+      this.Naruci = !this.Naruci
+    },
+  },
 };
 
 </script>
 
 <style scoped>
+.POPUP-Prozor {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
 
+
+.POPUP-Message {
+  background-color: #cbb3ff;
+  color: black;
+  border-radius: 2vw;
+  width: 20vw;
+  height: 10vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .title {
   display: flex;
   flex-direction: column;
@@ -63,7 +102,7 @@ export default {
   padding: 20px;
 }
 
-.title-first{
+.title-first {
   font-size: 90px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -106,50 +145,56 @@ export default {
   flex-grow: 1;
 }
 
-.adapt{
+.adapt {
   width: 40%;
   height: auto;
 }
 
 @media (max-width: 1200px) {
-  .title-desc{
+  .title-desc {
     margin-right: 200px;
     margin-left: 200px;
   }
-  .paragraph{
+
+  .paragraph {
     margin-right: 200px;
     margin-left: 200px
   }
 }
 
 @media (max-width: 992px) {
-  .title-desc{
+  .title-desc {
     margin-right: 100px;
     margin-left: 100px;
   }
-  .paragraph{
+
+  .paragraph {
     margin-right: 100px;
     margin-left: 100px
   }
-  .adapt{
+
+  .adapt {
     width: 60%;
     height: auto;
   }
 }
 
 @media (max-width: 768px) {
-  .title-first{
+  .title-first {
     font-size: 70px;
   }
-  .title-desc{
+
+  .title-desc {
     margin-right: 50px;
     margin-left: 50px;
   }
-  .paragraph{
+
+  .paragraph {
     margin-right: 50px;
     margin-left: 50px
   }
-  .adapt{
+
+  .adapt {
     width: 80%;
     height: auto;
   }
@@ -206,6 +251,4 @@ export default {
 .popup-content button:hover {
   background-color: #a2a2ff;
 }
-
 </style>
-
