@@ -50,6 +50,7 @@ export default {
 
 
 .hello-world {
+  
   display: flex;
   flex-direction: column; /* ovo je zas mi je pre velik razmak dolje */
   align-items: center;
