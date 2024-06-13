@@ -62,7 +62,7 @@ export default {
     handleMajstor() {
       this.Naruci = !this.Naruci
     },
-  },
+  }
 };
 
 </script>
