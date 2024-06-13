@@ -8,56 +8,82 @@
   </div>
   <div class="posao">
     <h3 class="subheading">Trebaš majstora?</h3>
-    <button class="button">Naruči uslugu</button>
+    <button class="button" @click="handleMajstor()">Naruči uslugu</button>
+    
+    
     <p class="paragraph">
       Projektiranje arhitektonskih prostora predstavlja proces preuređenja, poboljšanja ili modernizacije određenog
       dijela ili cijelog stambenog ili poslovnog objekta. Bilo da je riječ o arhitektonskom dizajnu kuhinje, kupaonice,
       potkrovlja, tavana ili vanjskog prostora, ovaj postupak obuhvata niz aktivnosti kojima se unapređuje
       funkcionalnost i estetika prostora.
-
     </p>
-    <img class="adapt" src="../../img/586199_orig.jpg">
-    <p class="paragraph">
-      Planiranje i dizajn: Prvi korak u stvaranju bilo kojeg arhitektonskog djela je razumijevanje potreba i želja onih
-      koji će prostor koristiti. Kroz detaljno planiranje i dizajn, arhitekti oblikuju prostor tako da odgovara načinu
-      života, radu ili aktivnostima koji će se u njemu odvijati.<br><br>
-
-      Inovacija i održivost: Suvremena arhitektura sve više teži inovacijama koje doprinose održivosti i energetskoj
-      učinkovitosti. Korištenje naprednih materijala, integracija obnovljivih izvora energije i pametnih tehnologija
-      ključni su za stvaranje zgrada koje su u skladu s prirodom i minimiziraju svoj ekološki otisak.<br><br>
-
-      Estetika i individualnost: Svaki arhitektonski projekt odražava jedinstveni identitet i estetiku. Bilo da se radi
-      o modernoj minimalističkoj kući, obnovi povijesne zgrade ili izgradnji poslovnog kompleksa, arhitektura pruža
-      bezbroj mogućnosti za izražavanje individualnosti i kreativnosti.<br><br>
-
-      Tehnička stručnost: Arhitektura zahtijeva duboko razumijevanje mnogih tehničkih aspekata, od strukturalne
-      integriteta do energetske učinkovitosti i sigurnosti. Stručni arhitekti osiguravaju da su svi ovi elementi
-      pažljivo integrirani u konačni dizajn.<br><br>
-
-      Interakcija s okolišem: Dobar arhitektonski dizajn uspijeva stvoriti harmoniju između izgrađenog prostora i
-      okoliša. Kroz promišljenu integraciju s prirodnim krajolikom ili urbanim kontekstom, arhitektura može obogatiti i
-      revitalizirati svoje okruženje.<br><br>
-
-      Dugovječnost i prilagodljivost: Arhitektura nije samo za jedno pokoljenje; ona stvara prostore koji mogu rasti,
-      evoluirati i prilagođavati se budućim potrebama. Stvaranjem fleksibilnih i prilagodljivih prostora, arhitektura
-      doprinosi stvaranju dugovječnih zajednica.<br><br><br><br>
-
-
-      U zaključku, arhitektura je temelj na kojem se grade naši životi, zajednice i budućnost. Ona predstavlja spoj
-      umjetnosti, znanosti i tehnologije, oblikujući prostore u kojima se odvijaju naše svakodnevne aktivnosti.
-      Angažiranjem stručnih arhitekata, ulaganje u kvalitetan arhitektonski dizajn postaje investicija u bolju, ljepšu i
-      održiviju budućnost za sve nas.
-    </p>
+    <img class="adapt" src="../../img/slika.jpg">
   </div>
+  <div class="POPUP-Prozor" v-if="Naruci === true">
+      <div class="POPUP-Message">
+        Nazovi na: 091 999 999 999 ili
+        <div>
+          <img src="" alt="Google">
+          <img src="" alt="Apple">
+        </div>
+      </div>
+    </div>
+  <p class="paragraph">
+    <b>Projektiranje stambenih i poslovnih objekata</b>: Izrada detaljnih planova i nacrta za izgradnju i preuređenje
+    stambenih i poslovnih objekata, uzimajući u obzir funkcionalnost, estetiku i ekološke standarde.<br><br>
+
+    <b>Urbanističko planiranje</b>: Razvijanje urbanističkih rješenja za organizaciju prostora unutar gradova i naselja,
+    uključujući prometnu infrastrukturu, javne prostore i zelene površine.<br><br>
+
+    <b>Interijer dizajn</b>: Kreiranje unutarnjih prostora koji su estetski privlačni, funkcionalni i prilagođeni
+    potrebama korisnika, koristeći najnovije trendove i materijale.<br><br>
+
+    <b>Restauracija i konzervacija</b>: Obnova i očuvanje povijesnih zgrada i spomenika, uz poštivanje izvorne
+    arhitekture i kulturne baštine.<br><br>
+
+    <b>Održiva arhitektura</b>: Implementacija ekološki prihvatljivih rješenja i održivih praksi u projektiranju i
+    izgradnji, s ciljem smanjenja utjecaja na okoliš.<br><br>
+  </p>
 </template>
 
 <script>
 export default {
-  name: 'Arhitektura'
+  data() {
+    return {
+      Naruci: false,
+    }
+  },
+  name: 'Arhitektura',
+  methods: {
+    handleMajstor(){
+      this.Naruci = !this.Naruci
+    },
+  },
 };
 </script>
 
+
 <style scoped>
+.POPUP-Prozor{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.POPUP-Message{
+  background-color: white;
+  color: black;
+  border-radius: 2vw;
+  width: 20vw;
+  height: 10vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .title {
   display: flex;
   flex-direction: column;

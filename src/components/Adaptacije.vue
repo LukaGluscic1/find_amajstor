@@ -8,11 +8,11 @@
   </div>
   <div class="posao">
     <h3 class="subheading">Trebaš majstora?</h3>
-    <button class="button">Naruči uslugu</button>
+    <button class="button" @click="showInstallPopup">Naruči uslugu</button>
     <p class="paragraph">
       Adaptacija ili renovacija prostora predstavlja postupak preuređenja, poboljšanja ili modernizacije određenog
       dijela ili cijelog stambenog ili poslovnog objekta. Bilo da je riječ o adaptaciji kuhinje, kupaonice, potkrovlja,
-      tavana ili vanjskog prostora, ovaj postupak podrazumijeva niz radova kojima se osvježava i podiže funkcionalnost i
+      tavana ili vanjskog prostora, ovaj postupak podrazumijeva niz radova kojih se osvježava i podiže funkcionalnost i
       estetika prostora.
     </p>
     <img class="adapt" src="../../img/adaptacija.jpg">
@@ -39,7 +39,17 @@
 
 <script>
 export default {
-  name: 'Adaptacije'
+  name: 'Adaptacije',
+  data() {
+    return {
+      showInstallPopup: false
+    }
+  },
+  methods: {
+    showInstallPopup() {
+      this.showInstallPopup = true
+    }
+  }
 };
 
 </script>
@@ -145,5 +155,57 @@ export default {
   }
 }
 
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.popup-content p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.popup-content button {
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #cbb3ff;
+}
+
+.popup-content button:hover {
+  background-color: #a2a2ff;
+}
 
 </style>
+

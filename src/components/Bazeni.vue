@@ -17,25 +17,25 @@
     </p>
     <img class="adapt" src="../../img/bazen.jpg">
     <p class="paragraph">
-      Dizajn i izgradnja: Izbor pravog dizajna bazena ključan je za usklađivanje s ukupnim estetskim izgledom vašeg doma
+      <b>Dizajn i izgradnja</b>: Izbor pravog dizajna bazena ključan je za usklađivanje s ukupnim estetskim izgledom vašeg doma
       i dvorišta. Bilo da se odlučite za klasične pravokutne bazene, bazene nepravilnih oblika ili moderne beskonačne
       bazene, važno je uzeti u obzir veličinu prostora, pristupačnost i vaše osobne potrebe.<br><br>
 
-      Materijali i tehnologije: Napredak u materijalima i tehnologijama omogućuje izgradnju bazena visoke kvalitete koji
+      <b>Materijali i tehnologije</b>: Napredak u materijalima i tehnologijama omogućuje izgradnju bazena visoke kvalitete koji
       zahtijevaju manje održavanja. Od fiberglasa do betonskih bazena s keramičkim pločicama, izbor materijala utječe na
       dugovječnost, izgled i osjećaj vašeg bazena.<br><br>
 
-      Oprema za bazene: Pravilna oprema, poput filtera, pumpi i sustava za grijanje, ključna je za održavanje čistoće
+      <b>Oprema za bazene</b>: Pravilna oprema, poput filtera, pumpi i sustava za grijanje, ključna je za održavanje čistoće
       vode i optimalne temperature. Također, dodaci poput podvodne rasvjete, protustrujnih uređaja za plivanje i
       hidromasažnih sistema mogu obogatiti iskustvo korištenja bazena.<br><br>
 
-      Sigurnost: Sigurnost je primarna pri planiranju i izgradnji bazena. Ograde oko bazena, pokrivači za bazen i alarmi
+      <b>Sigurnost</b>: Sigurnost je primarna pri planiranju i izgradnji bazena. Ograde oko bazena, pokrivači za bazen i alarmi
       za detekciju pada u vodu neki su od načina za osiguravanje sigurnog okruženja za djecu i kućne ljubimce.<br><br>
 
-      Održavanje: Redovito održavanje bazena, uključujući čišćenje, filtriranje i kemijsku ravnotežu vode, osigurava da
+      <b>Održavanje</b>: Redovito održavanje bazena, uključujući čišćenje, filtriranje i kemijsku ravnotežu vode, osigurava da
       je bazen uvijek spreman za korištenje, sprječavajući razvoj algi i bakterija.<br><br>
 
-      Pejzažno uređenje: Integracija bazena s pejzažnim dizajnom dvorišta može stvoriti savršeno mjesto za opuštanje.
+      <b>Pejzažno uređenje</b>: Integracija bazena s pejzažnim dizajnom dvorišta može stvoriti savršeno mjesto za opuštanje.
       Biljke, staze, kamene obloge i vanjski namještaj pridonose stvaranju ugodne atmosfere.<br><br><br><br>
 
 

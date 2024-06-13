@@ -16,22 +16,22 @@
     </p>
     <img class="adapt" src="../../img/ciscenje.jpg">
     <p class="paragraph">
-      Domaćinstvo: Od dubinskog čišćenja tepiha, pranja zavjesa i čišćenja kuhinje, do dezinfekcije i čišćenja nakon
+      <b>Domaćinstvo:</b> Od dubinskog čišćenja tepiha, pranja zavjesa i čišćenja kuhinje, do dezinfekcije i čišćenja nakon
       selidbe, osigurajte da vaš dom uvijek blista.<br><br>
 
-      Poslovni Prostori: Redovno čišćenje ureda, konferencijskih dvorana, izložbenih prostora i drugih poslovnih
-      objekata ključno je za održavanje profesionalnog izgleda.<br>
+      <b>Poslovni Prostori:</b> Redovno čišćenje ureda, konferencijskih dvorana, izložbenih prostora i drugih poslovnih
+      objekata ključno je za održavanje profesionalnog izgleda.<br><br>
 
-      Specijalizirane Usluge: Usluge čišćenja prozora na visinama, čišćenje građevinskih projekata ili medicinskih
-      ustanova zahtijevaju posebnu pažnju i opremu.<br>
+     <b> Specijalizirane Usluge:</b> Usluge čišćenja prozora na visinama, čišćenje građevinskih projekata ili medicinskih
+      ustanova zahtijevaju posebnu pažnju i opremu.<br><br>
 
-      Javni i Komercijalni Prostori: Održavanje čistih restorana, trgovačkih centara, sportskih objekata i školskih
-      prostora esencijalno je za sigurnost i zadovoljstvo korisnika.<br>
+      <b>Javni i Komercijalni Prostori:</b> Održavanje čistih restorana, trgovačkih centara, sportskih objekata i školskih
+      prostora esencijalno je za sigurnost i zadovoljstvo korisnika.<br><br>
 
-      Vanjski Radovi: Bilo da se radi o pranju fasade, terasa ili građevinskih strojeva, vanjski prostori zahtijevaju
-      redovno održavanje kako bi ostali u dobrom stanju.<br>
+      <b>Vanjski Radovi:</b> Bilo da se radi o pranju fasade, terasa ili građevinskih strojeva, vanjski prostori zahtijevaju
+      redovno održavanje kako bi ostali u dobrom stanju.<br><br>
 
-      Zdravlje i Sigurnost: Uz osnovne usluge čišćenja, dezinfekcija i deratizacija ključne su za održavanje zdravog
+      <b>Zdravlje i Sigurnost:</b> Uz osnovne usluge čišćenja, dezinfekcija i deratizacija ključne su za održavanje zdravog
       okruženja.
     </p>
   </div>

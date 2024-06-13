@@ -32,9 +32,9 @@
     border-top: 1px solid #e5e5e5;
     padding: 20px 0;
     width: 100%;
-    /*position: absolute;
-    bottom: 0;
-    left: 0;      >:( */
+    /*bottom: 0;
+    left: 0%;
+    position: fixed;*/
   }
   
   .footer-content {
@@ -54,6 +54,7 @@
   
   .footer-info {
     text-align: center;
+    bottom: 0%;
   }
   
   .footer-info p {
