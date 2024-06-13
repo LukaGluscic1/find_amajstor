@@ -9,6 +9,12 @@ import Elektroinstalacije from './components/Elektroinstalacije.vue';
 import Kontakt from './components/Kontakt.vue';
 import MajstorSam from './components/MajstorSam.vue';
 import Seemore from './components/Seemore.vue';
+import Vodoinstalacije from './components/Vodoinstalacije.vue';
+import Podovi from './components/Podovi.vue';
+import Tende from './components/Tende.vue';
+import Zidarstvo from './components/Zidarstvo.vue';
+import Selidbe from './components/Selidbe.vue';
+import Keramika from './components/Keramika.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -62,7 +68,37 @@ const router = createRouter({
       path: '/poslovi',
       name: 'Seemore',
       component: Seemore
-    }
+    },
+    {
+      path: '/Vodoinstalacije',
+      name: 'Vodoinstalacije',
+      component: Vodoinstalacije
+    },
+    {
+      path: '/Podovi',
+      name: 'Podovi',
+      component: Podovi
+    },
+    {
+      path: '/Tende',
+      name: 'Tende',
+      component: Tende
+    },
+    {
+      path: '/Zidarstvo',
+      name: 'Zidarstvo',
+      component: Zidarstvo
+    },
+    {
+      path: '/Selidbe',
+      name: 'Selidbe',
+      component: Selidbe
+    },
+    {
+      path: '/Keramika',
+      name: 'Keramika',
+      component: Keramika
+    },
   ]
 });
 
